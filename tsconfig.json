@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "esnext", 
-    "module": "NodeNext", 
+    "module": "es2015", 
     "lib": ["dom", "dom.iterable", "esnext"], 
     "jsx": "react-jsx", 
     "allowJs": true, 
@@ -14,7 +14,7 @@
     "incremental": true, 
     "resolveJsonModule": true, 
     "isolatedModules": true,
-    "moduleResolution": "NodeNext",
+    "moduleResolution": "bundler",
     "baseUrl": "./src",
     "paths": {
       "react": [ "./node_modules/@types/react" ],
