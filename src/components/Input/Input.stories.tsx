@@ -5,6 +5,7 @@ const meta: Meta<typeof InputComponent> = {
 	title: 'Components/Input',
 	component: InputComponent,
 };
+
 export default meta;
 
 type Story = StoryObj<typeof InputComponent>;

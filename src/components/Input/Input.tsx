@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { VscChromeClose, VscEye, VscEyeClosed } from 'react-icons/vsc';
 
 interface InputProps {
-	type?: string;
-	clearable?: boolean;
+	type: string;
+	clearable: boolean;
 }
 
 const InputComponent: React.FC<InputProps> = ({ type = 'text', clearable }) => {
