@@ -1,6 +1,7 @@
 import React from 'react';
 import InputComponent from './components/Input/Input';
 import Toast from './components/Toast/Toast';
+import SidebarMenu from './components/SidebarMenu/SidebarMenu';
 
 const App: React.FC = () => {
 	return (
@@ -12,6 +13,13 @@ const App: React.FC = () => {
 					message="Operation completed successfully!"
 					duration={3000}
 					closeable={true}
+				/>
+				<SidebarMenu
+					open={true}
+					menu={[
+						{ label: 'Item 1', children: [] },
+						{ label: 'Item 2', children: [{ label: 'Subitem 1', children: [] }] },
+					]}
 				/>
 			</main>
 		</div>

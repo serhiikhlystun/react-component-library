@@ -48,6 +48,7 @@ const Toast: React.FC<ToastProps> = ({
 		showToast && (
 			<div
 				className={`w-6vw ${toastBackground} fixed bottom-2 right-2 text-black p-2 rounded shadow-md text-sm animate-slide-in`}
+				style={{ zIndex: 100 }}
 			>
 				<p>
 					This is a {type} toast: {message}
